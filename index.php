@@ -1,8 +1,8 @@
-<?php 
-	$title = "Vball Tourney | Sally's House | HitsforHope | HOPEWorldwide Spokane"; 
+<?php
+	$title = "Vball Tourney | Sally's House | HitsforHope | HOPEWorldwide Spokane";
 	$metaKeywords = "HOPE worldwide, Hits for Hope, Spokane, WA, Church, Christ, members, volleyball, Sally's House, Salvation Army,  HOPE Worldwide, nonprofit fundraising, non-profit, not-for-profit, online fundraiser, fund-raising events, fund raising, donor, donate, donations, philanthropy, philanthropic, charity, charities, charitable, giving, tax deductible";
 	$metaDescription = "Hits for Hope is a 6on6 charity volleyball tournament fundraiser benefitting Salvation Army's Sally's House and the Spokane Chapter of HOPE Worldwide.";
-	include('includes/head.php'); 
+	include('includes/head.php');
 	include('includes/processForm.php');
 ?>
 
@@ -10,27 +10,27 @@
 		    <!-- Header -->
 		    <div class="intro-header">
 		        <div class="container">
-		
+
 		            <div class="row">
 		                <div class="col-lg-12">
 		                    <div class="intro-message">
-								<h1>Hits for Hope</h1>
+														<h1>2018 NW Christian Conference</h1>
 		                        <h3>Volleyball Tournament to support Sally's House</h3>
 		                        <hr class="intro-divider">
 		                    </div>
 		                </div>
 		            </div>
-		
+
 		        </div>
 		        <!-- /.container -->
-		
+
 		    </div>
 		    <!-- /.intro-header -->
-		
+
 		    <!-- Page Content -->
-		
+
 		    <div class="content-section-b" id="about">
-		
+
 		        <div class="container">
 		            <div class="row">
 		                <div class="col-lg-7 col-sm-6">
@@ -46,17 +46,17 @@
 		                    <img class="img-responsive" src="img/Hits4Hope2016.png" alt="">
 		                </div>
 		            </div>
-		
+
 		        </div>
 		        <!-- /.container -->
-		
+
 		    </div>
 		    <!-- /.content-section-a -->
-		
+
 		    <div class="content-section-a">
-		
+
 		        <div class="container">
-		
+
 		            <div class="row">
 		                <div class="col-lg-5 col-sm-6">
 		                    <img class="img-responsive" src="img/sallysHouse2.png" alt="">
@@ -70,13 +70,13 @@
 	</p>
 		                </div>
 		            </div>
-		
+
 		        </div>
 		        <!-- /.container -->
-		
+
 		    </div>
 		    <!-- /.content-section-b -->
-			
+
 		    <div class="content-section-b" id="signUp">
 		        <div class="container">
 					<div class="row">
@@ -159,7 +159,7 @@
 												<input type="hidden" name="formType" value="teamSignup"/>
 												<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
 											</div>
-										</div>				
+										</div>
 									</form>
 								</div>
 						    </div> <!-- #tab-content1 -->
@@ -230,26 +230,26 @@
 												<input type="hidden" name="formType" value="sponsorship"/>
 												<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
 											</div>
-										</div>				
+										</div>
 									</form>
 								</div>
 						    </div> <!-- #tab-content2 -->
-						</div>		    
+						</div>
 					</div>
 		        </div>
 		    </div>
-		    
-		    
-		    
-		    
-		    
-		    
-		    
-		    
+
+
+
+
+
+
+
+
 		    <div class="banner">
-		
+
 		        <div class="container">
-		
+
 		            <div class="row">
 		                <div class="col-lg-10">
 		                    <h2>Connect to Hope Worldwide Spokane Chapter:</h2>
@@ -262,12 +262,12 @@
 		                    </ul>
 		                </div>
 		            </div>
-		
+
 		        </div>
 		        <!-- /.container -->
-		
+
 		    </div>
 		    <!-- /.banner -->
 		</div>
-	
+
 <?php include('includes/footer.php'); ?>
