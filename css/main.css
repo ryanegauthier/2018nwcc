@@ -28,9 +28,9 @@ a:hover {
 }
 
 .topnav, .topnav a {
-    background-color: #007FBE;
+    background-color: #537bb7;
 /*     background-color: #00C5EE; */
-    font-size: 22px; 
+    font-size: 22px;
     color: #FFF !important;
 }
 
@@ -54,7 +54,7 @@ a:hover {
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/volleyballBanner.jpg) no-repeat center center;
+    background: url(../img/conference-1.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -86,12 +86,12 @@ a:hover {
 
 .greyBg {
 	background: #f8f8f8;
-	padding: 20px 0;	
+	padding: 20px 0;
 }
 
 .whiteBg {
 	background: #FFF;
-	padding: 20px 0;	
+	padding: 20px 0;
 }
 
 .network-name {
@@ -109,7 +109,7 @@ a:hover {
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
+    /*border-top: 1px solid #e7e7e7;*/
     border-bottom: 1px solid #e7e7e7;
     background-color: #FFF;
 /*     background-color: #dee; */
@@ -117,7 +117,7 @@ a:hover {
 
 .section-heading {
 /*     margin-bottom: 30px; */
-    color: #007FBE;
+    color: #537bb7;
 }
 
 .section-heading-spacer {
@@ -150,9 +150,9 @@ a:hover {
 
 footer {
     padding: 18px 0;
-    background-color: #007FBE !important;
+    background-color: #537bb7 !important;
 /*     background-color: #00C5EE !important; */
-    font-size: 16px; 
+    font-size: 16px;
     color: #FFF !important;
     height: 52px;
 	position:fixed;
@@ -163,7 +163,7 @@ footer {
 }
 
 footer a {
-/*     color: #007FBE; */
+/*     color: #537bb7; */
 	color: #FFF;
 }
 
@@ -194,21 +194,13 @@ p.copyright {
 	padding-right: 25px;
 }
 
-
-
-
-
-
-
-
-
 .tabs {
-    max-width: 90%;
+    max-width: 100%;
     float: none;
     list-style: none;
     padding: 0;
 /*     margin: 75px auto; */
-    border-bottom: 4px solid #ccc;
+    border-bottom: 4px solid #9bcfd9;
 }
 .tabs:after {
     content: '';
@@ -221,16 +213,16 @@ p.copyright {
 .tabs label {
     display: block;
     float: left;
-    width: 33.3333%;
-    color: #ccc;
+    width: 25%;
+    color: #9bcfd9;
     font-size: 30px;
     font-weight: normal;
     text-decoration: none;
     text-align: center;
     line-height: 2;
     cursor: pointer;
-    box-shadow: inset 0 4px #ccc;
-    border-bottom: 4px solid #ccc;
+    box-shadow: inset 0 4px #9bcfd9;
+    border-bottom: 4px solid #9bcfd9;
     -webkit-transition: all 0.5s; /* Safari 3.1 to 6.0 */
     transition: all 0.5s;
 }
@@ -253,6 +245,7 @@ p.copyright {
     padding: 15px;
     box-sizing: border-box;
     background-color:#ffffff;
+    font-size: large;
 }
 
 .tab-content * {
@@ -263,6 +256,11 @@ p.copyright {
 
 .tab-content li {
 	list-style: none;
+}
+
+.tab-content .lblTime {
+  color: #2b3f45;
+  /*font-size: x-large;*/
 }
 
 i.fa.fa-hand-o-right {
@@ -292,7 +290,8 @@ i.fa.fa-hand-o-right {
 }
 #tab1:checked ~ #tab-content1,
 #tab2:checked ~ #tab-content2,
-#tab3:checked ~ #tab-content3 {
+#tab3:checked ~ #tab-content3,
+#tab4:checked ~ #tab-content4 {
     display: block;
 }
 
