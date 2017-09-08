@@ -1,13 +1,9 @@
-<?php 
-
-
+<?php
 	$title = "Contact Hits for Hope";
 	$metaKeywords = "";
 	$metaDescription = "";
-
 	include('includes/head.php');
 	include('includes/processForm.php');
-	
 ?>
 
     <a name="about"></a>
@@ -17,9 +13,9 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-						<h1>Hits for Hope</h1>
-                        <h3>Volleyball Tournament to support Sally's House</h3>
-                        <hr class="intro-divider">
+											<h1>2018 NW Christian Conference</h1>
+											<h3>Family: We Know, We Grow, We Go</h3>
+                      <hr class="intro-divider">
                     </div>
                 </div>
             </div>
@@ -36,12 +32,12 @@
         <div class="container">
             <div class="row">
 				<div class="col-xs-12">
-					<h1>Contact Hits for Hope</h1>
+					<h1>Contact an Administrator</h1>
 					<?php echo("<h3 class='bg-success'>" . @$_SESSION['success'] . "</h3>");?>
 					<p class="lead">Please contact us if you have any questions about the event or about how you can help.</p>
 				</div>
             </div>
-			
+
 			<div class="row">
 				<div class="col-sm-8">
 					<form name="contactform" method="post" action="/contact/" enctype="multipart/form-data">
@@ -86,25 +82,31 @@
 							</label>
 							<div class="col-sm-10">
 								<textarea class="form-control" name="comments" maxlength="1000" cols="25" rows="6" placeholder="Comments"><?php echo($_POST['comments']); ?></textarea>
-								<?php echo("<p class='text-danger'>" . @$_SESSION['noteError'] . "</p>");?>
+								<?php echo("<p class='text-danger noteError'>" . @$_SESSION['noteError'] . "</p>");?>
 							</div>
 						</div>
 						<div class="form-group row">
 							<div class="col-sm-10 col-sm-offset-2">
 								<div class="g-recaptcha" id="contactCaptcha"></div>
-								<?php echo("<p class='text-danger'>" . @$_SESSION['gCaptchaError'] . "</p>");?>
+								<?php echo("<p class='text-danger captchaError'>" . @$_SESSION['gCaptchaError'] . "</p>");?>
 							</div>
 						</div>
 						<div class="form-group row">
 							<div class="col-sm-10 col-sm-offset-2">
 								<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+								<!-- <button
+										class="g-recaptcha"
+										data-sitekey="6LcAjy8UAAAAAG9t632yzQ7IgGgL0rBSl_1SgWBd"
+										data-callback="CaptchaCallback()">
+											Send
+								</button> -->
 							</div>
-						</div>				
+						</div>
 					</form>
 				</div>
 			</div>
 
-        </div>		
+        </div>
 	</div>
 <?php
 	include('includes/footer.php');
